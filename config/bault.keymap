@@ -25,6 +25,26 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 12>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <13 14>;
+        };
+
+        bkp {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <18 17>;
+        };
+
+        worddel {
+            bindings = <&kp LC(BACKSPACE)>;
+            key-positions = <17 18 19>;
+        };
     };
 
     keymap {
@@ -54,6 +74,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans        &trans        &trans        &trans        &trans
 &trans  &trans  &trans  &trans  &trans  &bt BT_CLR    &out OUT_BLE  &out OUT_USB  &out OUT_TOG  &trans
         &kp N0  &trans  &trans          &trans                      &trans        &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans          &trans          &trans  &trans
             >;
         };
     };
