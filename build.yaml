@@ -25,3 +25,5 @@ include:
     artifact-name: bault_studio
   - board: bault
     shield: settings_reset
+  - board: seeeduino_xiao_ble
+    shield: bault_dongle prospector_adapter
