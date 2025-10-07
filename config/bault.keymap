@@ -52,10 +52,10 @@
 
         base {
             bindings = <
-&kp Q               &kp W           &kp E       &kp R             &kp T  &kp Y        &kp U              &kp I            &kp O           &kp P           &kp LEFT_BRACKET
-&hm LEFT_CONTROL A  &hm LEFT_ALT S  &hm LGUI D  &hm LEFT_SHIFT F  &kp G  &kp H        &hm RIGHT_SHIFT J  &hm RIGHT_GUI K  &hm LEFT_ALT L  &hm RCTRL APOS
-&hm LEFT_SHIFT Z    &kp X           &kp C       &kp V             &kp B  &kp N        &kp M              &kp COMMA        &kp PERIOD      &kp SLASH
-                    &kp LEFT_GUI    &mo 2       &lt 1 SPACE              &lt 2 SPACE                     &mo 1            &studio_unlock
+&kp Q               &kp W           &kp E         &kp R             &kp T  &kp Y        &kp U              &kp I            &kp O           &kp P           &kp LEFT_BRACKET
+&hm LEFT_CONTROL A  &hm LEFT_ALT S  &hm LGUI D    &hm LEFT_SHIFT F  &kp G  &kp H        &hm RIGHT_SHIFT J  &hm RIGHT_GUI K  &hm LEFT_ALT L  &hm RCTRL APOS
+&hm LEFT_SHIFT Z    &kp X           &kp C         &kp V             &kp B  &kp N        &kp M              &kp COMMA        &kp PERIOD      &kp SLASH
+                    &kp LCTRL       &kp LEFT_GUI  &lt 1 SPACE              &lt 2 SPACE                     &mo 1            &studio_unlock
             >;
         };
 
@@ -70,10 +70,10 @@
 
         connectivity {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bootloader
-&trans  &trans  &trans  &trans  &trans  &trans        &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &bt BT_CLR    &out OUT_BLE  &out OUT_USB  &out OUT_TOG  &trans
-        &kp N0  &trans  &trans          &trans                      &trans        &trans
+&trans  &trans    &kp UP_ARROW  &trans     &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bootloader
+&trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans        &trans        &trans        &trans        &trans
+&trans  &trans    &trans        &trans     &trans  &bt BT_CLR    &out OUT_BLE  &out OUT_USB  &out OUT_TOG  &trans
+        &kp N0    &trans        &trans             &trans                      &trans        &trans
             >;
         };
 
